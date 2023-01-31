@@ -1,0 +1,35 @@
+body {
+    background-color: #071013;
+    color: #DFE0E2;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    color: #071013;
+    font-family: 'Aboreto', cursive;
+}
+
+.login-container {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 50px;
+    height: 500px;
+    width: 400px;
+    background-color: #23B5D3;
+    border-radius: 7%;
+}
+
+#signin {
+    height: 50px;
+    background-color: #DFE0E2;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+input {
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+
+}

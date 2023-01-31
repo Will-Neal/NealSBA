@@ -1,0 +1,121 @@
+body {
+    background-color: #071013;
+    color: #DFE0E2;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    border: 0px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 300%;
+    background-color: #23B5D3;
+}
+
+#name-display {
+    text-align: center;
+}
+
+nav {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    margin: 0px;
+    border: 0px;
+    height: 200px;
+    background-color: #23B5D3;
+}
+
+.journal-container {
+    padding-top: 0px;
+    margin: auto;
+    text-align: Center;
+    height: 250px;
+    width: 800px;
+    
+    background-color: #A2AEBB;
+    border-radius: 5px;
+}
+
+.journal-display {
+    height: fit-content;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #23B5D3;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.journal-entries {
+    height: fit-content;
+    width: 90%;
+}
+
+.right {
+    border-bottom: 2px #A2AEBB solid;
+    border-left: 2px #A2AEBB solid;
+}
+
+.left {
+    border-bottom: 2px #A2AEBB solid;
+}
+
+textarea, input {
+    border-radius: 3px;
+}
+
+.submit {
+    background-color: #cfc321;
+    font-weight: 600;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: grey 5px 5px 5px;
+}
+
+.submit:hover{
+    background-color: #fff99e;
+}
+
+.submit:active {
+    background-color: #fff99e;
+    box-shadow: grey 2px 2px 2px;
+}
+
+tr {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    padding: 30px;
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer>button {
+    background-color: #d9534f;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: grey 3px 3px 3px;
+}
+
+#clear:hover {
+    background-color: #fa938f;
+}
+
+#clear:active {
+    background-color: #fa938f;
+    box-shadow: grey 1px 1px 1px;
+}
+
+a{
+    /* text-decoration: none; */
+    color: #DFE0E2;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../resources/css/journal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1>The Lineup</h1>
+        <h2>Personal Surf Journal</h2>
+        <a href="./photos.html">Photos Page</a>
+        <a>|</a>
+        <a href="../index.html">Back to Login</a>
+    </nav>
+    <div id="name-display"></div>
+    <div class="journal-container">
+        <h2>Add an Entry</h2>
+        <form class="login-form" >
+            <label for="entry">Entry</label>
+            <br/>
+            <textarea name="entry" id="entry" cols="80" rows="5"></textarea>
+            <br/>
+            <input id="date" type="date">
+            <input id="reported" type="text" name="reported" placeholder="reported">
+            <input id="actual" name="actual" placeholder="actual">
+            <br/>
+            <input id="submit" class="submit" type="submit" value="Submit Entry">
+            
+        </form>
+    </div>
+    <div class="journal-display">
+        <div id="journal-name-display"></div>
+        <table id="journal-entries" class="journal-entries" >
+            <tr class = journal-header>
+              <th class="left">Date</th>
+              <th class="right">Entry</th>
+              <th class="right">Reported</th>
+              <th class="right">Actual</th>
+            </tr>
+          </table>
+    </div>
+    <div class="footer">
+      <button id="clear">Clear Journal</button>
+    </div>
+    
+<script src="../resources/js/journal.js"></script>
+</body>
+</html>

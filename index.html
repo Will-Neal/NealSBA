@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="error-display"></div>
+    <div class="login-container">
+        <h1>Welcome to the Lineup</h1>
+        <h2>Please sign in to continue</h2>
+        <form class="login-form" >
+            <br />
+            <label for="">Name: </label>
+            <br />
+            <input id="name" type="text" name="name" required>
+            <br />
+            <label for="">Email: </label>
+            <br />
+            <input id="email" type="email" name="email">
+            <br />
+            <label for="username">Username:</label>
+            <br />
+            <input id="username" type="text" name="username" required>
+            <br />
+            <label for="password">Password:</label>
+            <br />
+            <input id="password" type="password" name="password" required>
+            <br />
+            <br />
+            <input style="margin-bottom: 10px; cursor:pointer;" id="signin" type="submit" value="Sign In">
+            <br/>
+            
+
+        </form>
+        <a id="guest" style="color: #DFE0E2; font-size: 90%; cursor:pointer" href="./views/journal.html">Continue as Guest</a>
+    </div>
+    <script src="./resources/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../resources/css/photos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1>The Lineup</h1>
+        <h2>Photo Book</h2>
+        <a href="./journal.html">Journal Page</a>
+        <a>|</a>
+        <a href="../index.html">Back to Login</a>
+    </nav>
+    <main>
+        <div class="photo-container"></div>
+        <div class="form-container">
+            <form class="photo-form">
+                <input id="url" type="text" name="url" placeholder="Photo URL">
+                <select id="rating" name="rating">
+                    <option value="Poor" disabled selected>Rating</option>
+                    <option value="Poor">Poor</option>
+                    <option value="Fair">Fair</option>
+                    <option value="Good">Good</option>
+                    <option value="Epic">Epic</option>
+                </select>
+                <input id="submit" type="submit" value="Add Photo">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
