@@ -13,8 +13,8 @@
     <!-- min-width for phone = 200px; -->    
 <style>
     .image-frame {
-        min-width: 400px;
-        max-width: 800px;
+        min-width: 510px;
+        max-width: 510px;
         align-self:start;
         flex: 2;
     }
@@ -25,6 +25,34 @@
 
     .caption {
         margin: 0px;
+    }
+
+    .clear-div {
+        width: 200px;
+        height: 30px;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #clear {
+        text-align: center;
+        height: 25px;
+        width: 150px;
+        border-radius: 5px;
+        background-color: #d3443f;
+        box-shadow: grey 5px 5px 5px;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #clear:hover{
+        background-color: #ff8b87;
+    }
+
+    #clear:active {
+        background-color: #ff8b87;
+        box-shadow: grey 2px 2px 2px;
     }
 
 </style>
@@ -55,6 +83,9 @@
                 </select>
                 <input id="submit" type="submit" value="Add Photo">
             </form>
+        </div>
+        <div class="clear-div">
+            <button id="clear" class="clear">Clear Photos</button>
         </div>
         <div style="padding-top: 30px;" class="resources-container">
             <h1 style="font-size: 160%;font-family: 'Aboreto', cursive; border-radius: 5px;">Resources</h1>
