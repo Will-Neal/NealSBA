@@ -1,4 +1,5 @@
 var submit = document.querySelector("#submit");
+var clear = document.querySelector("#clear")
 
 function addPhoto(event){
     event.preventDefault();
@@ -77,5 +78,12 @@ function renderImages(){
     }
 }
 
+const clearPhotos = ()=> {
+    const emptyArray = [];
+    window.localStorage.setItem("image-list", emptyArray);
+    location.reload();
+}
+
 window.addEventListener("DOMContentLoaded", renderImages)
 submit.addEventListener("click", addPhoto)
+clear.addEventListener("click", clearPhotos)

@@ -56,8 +56,8 @@ function signin(event){
 }
 
 function guestEntry(){
-    const emptyArray = [];
-    window.localStorage.setItem("entry-list", emptyArray);
+    // const emptyArray = [];
+    // window.localStorage.setItem("entry-list", emptyArray);
     const emptyObject = "noUser";
     window.localStorage.setItem("user-info",emptyObject)
 
