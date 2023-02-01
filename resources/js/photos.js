@@ -12,6 +12,7 @@ function addPhoto(event){
     const location = locationEl.value;
     const rating = ratingEl.value;
 
+    
     let  image = {
         url: url,
         location: location,
