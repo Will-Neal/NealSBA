@@ -17,6 +17,9 @@ To see a live demo of the site follow this link:
 <br>https://will-neal.github.io/NealSBA/
 
   ## Installation
+
+Github repo for this project:
+<br>https://github.com/Will-Neal/NealSBA
   
 Clone down the repository to your desired location. Open the NealSBA folder in your preferred IDE or text-editor, navigate to the index.html file and open it in your web broswer.
 
