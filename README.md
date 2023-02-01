@@ -26,7 +26,9 @@ If you receive a zip file (not from github) then unzip the file to your desired 
 
   Since this is a prototype, login is possible but not required. If you continue as guest you will have access to all of the features but will not be greeted by your personal username. The journal and photos pages will start empty. Journal entries and images are added by completing the form and cleared by pressing the red button. Images are added by providing the correct URL. 
 
-  ![SMS Screenshot](https://github.com/Will-Neal/NealSMS_HibernateSBA/blob/main/images/SMS_SS.png?raw=true)
+  ![Index Screenshot](https://github.com/Will-Neal/NealSBA/blob/main/resources/images/index-ss-lineup.png?raw=true)
+  ![Journal Screenshot](https://github.com/Will-Neal/NealSBA/blob/main/resources/images/journal-ss-lineup.png?raw=true)
+  ![Photo Screenshot](https://github.com/Will-Neal/NealSBA/blob/main/resources/images/images-ss-lineup.png?raw=true)
   
   ## License
 
