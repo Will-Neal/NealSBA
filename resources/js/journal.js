@@ -14,7 +14,7 @@ function renderUser() {
         display.appendChild(header)
 
         const journalHeader = document.createElement("h3");
-        journalHeader.textContent = username + "'s' Journal";
+        journalHeader.textContent = username + "'s Journal";
         journalNameDisplay.appendChild(journalHeader);
     }
 

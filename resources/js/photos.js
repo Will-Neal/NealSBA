@@ -36,6 +36,11 @@ function renderImages(){
     const imageDisplay = document.querySelector("#photo-container");
 
     //clear table before rendering
+    const frames = document.querySelectorAll(".image-frame");
+    for(let j = 0; j<frames.length; j++){
+        let element = frames[j];
+        element.remove();
+    }
 
     //render images
     const imageData = window.localStorage.getItem("image-list");
@@ -72,4 +77,5 @@ function renderImages(){
     }
 }
 
+window.addEventListener("DOMContentLoaded", renderImages)
 submit.addEventListener("click", addPhoto)
