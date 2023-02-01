@@ -24,7 +24,7 @@ If you receive a zip file (not from github) then unzip the file to your desired 
 
 ## Usage
 
-  Since this is a prototype, login is possible but not required. If you continue as guest you will have access to all of the features but will not be greeted by your personal username. The journal and photos pages will start empty. Journal entries and images are added by completing the form and cleared by pressing the red button. Images are added by providing the correct URL. 
+  Since this is a prototype, login is possible but not required. If you continue as guest you will have access to all of the features but will not be greeted by your personal username. To login, the only real requirement is that a valid email with both an @ and a "." following. This is checked by a simle regular expression. The journal and photos pages will start empty. Journal entries and images are added by completing the form and cleared by pressing the red button. Images are added by providing the correct URL. 
 
   ![Index Screenshot](https://github.com/Will-Neal/NealSBA/blob/main/resources/images/index-ss-lineup.png?raw=true)
   ![Journal Screenshot](https://github.com/Will-Neal/NealSBA/blob/main/resources/images/journal-ss-lineup.png?raw=true)
