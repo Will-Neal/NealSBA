@@ -13,10 +13,16 @@
     <!-- min-width for phone = 200px; -->    
 <style>
     .image-frame {
-        min-width: 510px;
-        max-width: 510px;
+        min-width: 600px;
+        max-width: 600px;
         align-self:start;
         flex: 2;
+        transition: all ease .4s;
+    }
+
+    .image-frame:hover{
+        min-width: 900px;
+        max-width: 900px;
     }
 
     img {
